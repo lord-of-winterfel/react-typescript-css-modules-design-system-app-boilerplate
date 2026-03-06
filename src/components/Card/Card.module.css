@@ -1,0 +1,14 @@
+.card {
+  font-family: var(--ui-font-family);
+  background: var(--ui-color-backgroundAlt);
+  color: var(--ui-color-text);
+  border: 1px solid var(--ui-color-border);
+  border-radius: var(--ui-radius-md);
+  padding: var(--ui-spacing-md);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.cardContent {
+  font-size: var(--ui-font-size-md);
+  line-height: var(--ui-line-height-normal);
+}

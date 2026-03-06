@@ -1,0 +1,16 @@
+.wrapper {
+  margin-bottom: var(--ui-spacing-sm);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ui-spacing-md);
+}
+
+.text {
+  flex: 1;
+  color: var(--ui-color-text);
+  font-size: var(--ui-font-size-md);
+}

@@ -1,0 +1,28 @@
+.page {
+  min-height: 100vh;
+  background: var(--ui-color-background);
+  color: var(--ui-color-text);
+  font-family: var(--ui-font-family);
+  padding: var(--ui-spacing-lg);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--ui-spacing-xl);
+  flex-wrap: wrap;
+  gap: var(--ui-spacing-md);
+}
+
+.title {
+  margin: 0;
+  font-size: var(--ui-font-size-xxl);
+  font-weight: var(--ui-font-weight-bold);
+  color: var(--ui-color-text);
+}
+
+.main {
+  max-width: 640px;
+  margin: 0 auto;
+}

@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  gap: var(--ui-spacing-sm);
+  margin-bottom: var(--ui-spacing-lg);
+}
+
+.input {
+  flex: 1;
+  font-family: var(--ui-font-family);
+  font-size: var(--ui-font-size-md);
+  padding: var(--ui-spacing-sm) var(--ui-spacing-md);
+  border: 1px solid var(--ui-color-border);
+  border-radius: var(--ui-radius-md);
+  background: var(--ui-color-background);
+  color: var(--ui-color-text);
+}
+
+.input::placeholder {
+  color: var(--ui-color-textMuted);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--ui-color-primary);
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}

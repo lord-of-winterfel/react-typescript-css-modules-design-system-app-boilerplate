@@ -1,0 +1,12 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.empty {
+  color: var(--ui-color-textMuted);
+  font-size: var(--ui-font-size-md);
+  text-align: center;
+  padding: var(--ui-spacing-lg);
+}
